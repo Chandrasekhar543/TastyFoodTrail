@@ -1,0 +1,841 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#navlink1 {
+    color: navy;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Times New Roman;
+
+}
+.loginbutton {
+    width: 150px;
+    height: 45px;
+    color: black;
+    font-family: Serif;
+    font-weight: bolder;
+    margin-top:15px;
+}
+
+#navlink2 {
+    color: navy;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Times New Roman;
+
+}
+
+#navlink2 {
+    color: navy;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Times New Roman;
+
+}
+
+#navlink3 {
+    color: navy;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Times New Roman;
+
+}
+
+#navlink4 {
+    color: navy;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Times New Roman;
+
+}
+
+#navlink5 {
+    color: navy;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Times New Roman;
+
+}
+
+.profile-button {
+    width: 100px;
+    margin-left: 10px;
+    border-width: 0px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    height: 42px;
+    border-radius: 10px;
+    color: navy;
+    font-family: Times New Roman;
+    margin-top: 17px;
+}
+
+button:hover {
+    background-color: #54B4D3;
+    width: 155px;
+    height: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 290px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.food-image-style {
+    width: 70px;
+    height: 60px;
+}
+
+.background-container {
+    background-image: url("https://www.baronmiedzyzdroje.pl/wp-content/uploads/2019/04/background-1.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.heading {
+    color: white;
+    font-family: Times New Roman;
+    font-weight: bold;
+    margin-top:40px;
+}
+.heading12 {
+    color: white;
+    font-family: Times New Roman;
+    font-weight: bold;
+    margin-top:40px;
+}
+
+.paragraph {
+    color: white;
+    font-family: Times New Roman;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.discount-para {
+    font-weight: bold;
+    font-family: Times New Roman;
+    color: orange;
+}
+
+.button1 {
+    width: 145px;
+    height: 45px;
+    margin-right: 21px;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+    background-color: navy;
+    font-weight: bolder;
+    font-family: serif;
+    border-radius: 8px;
+}
+
+.button2 {
+    width: 140px;
+    height: 45px;
+    border-radius: 8px;
+    font-family: serif;
+    font-weight: bolder;
+}
+
+.image2-style {
+    width: 200px;
+    height: 180px;
+}
+
+.choose-card {
+    background-color: #F2F2F2;
+}
+
+.choose-heading {
+    font-size: 30px;
+    font-weight: bolder;
+    color: navy;
+    font-family: Times New Roman;
+    text-decoration: underline;
+}
+
+.choose-para {
+    font-size: 17px;
+    font-family: Times New Roman;
+    font-weight: bolder;
+    color: black;
+}
+
+.choose-cards {
+    background-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.choose-image {
+    width: 110px;
+    height: 110px;
+}
+
+.choose-heading-2 {
+    color: navy;
+    font-weight: bolder;
+    font-family: serif;
+
+}
+
+.choose-para-2 {
+    font-weight: bolder;
+    font-family: Serif;
+    color: #5C5C5C;
+}
+
+.menu-background {
+    background-color: white;
+}
+
+.menu-heading {
+    font-family: Times New Roman;
+    font-weight: bolder;
+    color: navy;
+    padding-top: 35px;
+    font-size: 28px;
+    text-decoration: underline;
+
+}
+
+.menu-image-background {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.menu-images {
+    border-radius: 12px;
+    width: 100%;
+}
+
+.food-heading {
+    font-size: 24px;
+    font-family: serif;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #42545D;
+}
+
+.food-button2 {
+    width: 145px;
+    height: 45px;
+    background-color: navy;
+    border-radius: 8px;
+    border-width: 0px;
+    color: white;
+    font-family: serif;
+    font-weight: bolder;
+
+}
+
+.rating {
+    width: 60px;
+    height: 25px;
+    background-color: green;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.para-rating {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.rating-data {
+    color: #42545D;
+    font-family: Times New Roman;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#height1 {
+    height: 222px;
+    border-radius: 2px;
+}
+
+.fresh-background {
+    background-color: white;
+}
+
+.fresh-image {
+    width: 220px;
+    height: 210px;
+    padding-top: 40px;
+    margin-right: 15px;
+}
+
+.fresh-image1 {
+    width: 190px;
+    height: 180px;
+    padding-top: 40px;
+}
+
+.fresh-image2 {
+    width: 420px;
+    height: 310px;
+    padding-top: 40px;
+    margin-left: 5px;
+    border-radius: 12px;
+}
+
+.fresh-heading {
+    color: #41525A;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.fresh-para {
+    color: #606060;
+    font-size: 20px;
+    font-family: Times New Roman;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+
+.delivery-background {
+    background-color: white;
+}
+
+.discount-image {
+    width: 270px;
+    height: 250px;
+    text-align: center;
+}
+
+.discount-button {
+    width: 145px;
+    height: 45px;
+    background-color: orange;
+    border-radius: 8px;
+    border-width: 0px;
+    color: white;
+    font-family: serif;
+    font-weight: bolder;
+
+}
+
+.payment-image {
+    width: 58px;
+    height: 58px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+.payment-image1 {
+    width: 50px;
+    height: 50px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+.follow-heading {
+    font-family: Times New Roman;
+    font-weight: bolder;
+    color: white;
+    padding-top: 35px;
+    font-size: 28px;
+    text-decoration: underline;
+
+}
+
+.follow-background {
+    background-color: #313F46;
+}
+
+a {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.follow-image {
+    width: 76px;
+    height: 76px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.follow-data {
+    color: white;
+
+}
+
+.follow-data1 {
+    margin-right: 65px;
+    color: white;
+    margin-top: 20px;
+}
+
+.list-style {
+    list-style-type: none;
+}
+
+.follow-data2 {
+    color: white;
+    margin-right: 66px;
+    margin-top: 22px;
+
+}
+
+.powered-data {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-family: bolder;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.biryanies-background {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.biryani-heading {
+    color: navy;
+    font-family: Times New Roman;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+
+.biryani-totalimages {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.money-strike {
+    text-decoration: line-through;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: Times New Roman;
+    color: #A0ADB3;
+}
+
+.free-delivery {
+    color: orange;
+    font-family: Sans-Serif;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.non-strike {
+    color: navy;
+    font-size: 24px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-family: Times New Roman;
+}
+
+.discount-percentage {
+    font-family: Times New Roman;
+    color: green;
+    font-weight: bolder;
+    font-size: 21px;
+    margin-left: 7px;
+}
+
+.rating1 {
+    width: 60px;
+    height: 25px;
+    background-color: green;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+.rating2 {
+    width: 60px;
+    height: 25px;
+    background-color: #6B1041;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+.rating3 {
+    width: 60px;
+    height: 25px;
+    background-color: #044A3E;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+.rating4 {
+    width: 60px;
+    height: 25px;
+    background-color: #921919;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+.para-rating1 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.rating-data1 {
+    color: #42545D;
+    font-family: Times New Roman;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.button5 {
+    width: 145px;
+    height: 45px;
+    margin-right: 21px;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+    background-color: #6B1041;
+    font-weight: bolder;
+    font-family: serif;
+    border-radius: 8px;
+}
+
+.button6 {
+    width: 145px;
+    height: 45px;
+    margin-right: 21px;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+    background-color: #6D2109;
+    font-weight: bolder;
+    font-family: serif;
+    border-radius: 8px;
+}
+
+.available-offers {
+    color: green;
+    font-family: Times New Roman;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.save {
+    color: #9856A4;
+    font-family: Sans-Serif;
+    font-weight: bold;
+    margin-left: 1px;
+}
+
+.get {
+    color: green;
+    font-family: Times New Roman;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.buy {
+    color: #700F43;
+    font-family: Times New Roman;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.biryani-totalimages1 {
+    width: 100%;
+    border-radius: 12px;
+    height: 250px;
+
+}
+
+.biryani-totalimages2 {
+    width: 100%;
+    border-radius: 12px;
+    height: 260px;
+
+}
+
+.biryani-totalimages3 {
+    width: 100%;
+    border-radius: 12px;
+    height: 250px;
+
+}
+
+.biryani-totalimages4 {
+    width: 100%;
+    border-radius: 12px;
+    height: 245px;
+
+}
+
+.biryani-totalimages5 {
+    width: 100%;
+    border-radius: 12px;
+    height: 240px;
+
+}
+
+.biryani-totalimages6 {
+    width: 100%;
+    border-radius: 12px;
+    height: 315px;
+
+}
+
+.biryani-totalimages7 {
+    width: 100%;
+    border-radius: 12px;
+    height: 225px;
+
+}
+
+.biryani-totalimages8 {
+    width: 100%;
+    border-radius: 12px;
+    height: 225px;
+
+}
+
+.biryani-totalimages9 {
+    width: 100%;
+    border-radius: 12px;
+    height: 235px;
+
+}
+
+.salad-information {
+    font-family: Times New Roman;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #6B1041;
+}
+
+.food-donation-background-image {
+    background-image: url("https://media.istockphoto.com/id/1492759962/photo/concept-of-giving-free-food-to-the-poor-in-the-community-volunteers-handing-out-food-to.webp?b=1&s=170667a&w=0&k=20&c=tINyKbFGgDb1FX3I2WfNoXJP7y7spXXqtJPZkh7Mtz4=");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.background-image {
+    background-image: url("https://media.istockphoto.com/id/1492759962/photo/concept-of-giving-free-food-to-the-poor-in-the-community-volunteers-handing-out-food-to.webp?b=1&s=170667a&w=0&k=20&c=tINyKbFGgDb1FX3I2WfNoXJP7y7spXXqtJPZkh7Mtz4=");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    padding-top: 10px;
+}
+
+.food-donation-data {
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(3.5px);
+    backdrop-filter: blur(3.5px);
+    width: 520px;
+    height: 620px;
+    margin-left: 32%;
+    border-radius: 12px;
+    padding-top: 5px;
+}
+
+.label-style {
+    margin-left: 25px;
+    font-family: Times New Roman;
+    font-weight: bolder;
+    font-size: 22px;
+    color: #073930;
+}
+
+.input-style {
+    width: 310px;
+    border-width: 0px;
+    outline-width: 0px;
+    border-color: navy;
+    border-radius: 6px;
+    height: 38px;
+    margin-top: 7px;
+    margin-bottom: 13px;
+}
+
+::placeholder {
+    color: orange;
+    font-family: Sans-Serif;
+    font-weight: bolder;
+
+}
+
+.input-style1 {
+    width: 310px;
+    border-width: 0px;
+    outline-width: 0px;
+    border-color: navy;
+    border-radius: 6px;
+    height: 38px;
+    margin-left: 32px;
+    margin-bottom: 13px;
+}
+
+.input-style3 {
+    width: 310px;
+    border-width: 0px;
+    outline-width: 0px;
+    border-color: navy;
+    border-radius: 6px;
+    height: 38px;
+    margin-left: 38px;
+    margin-bottom: 13px;
+}
+
+.input-style4 {
+    width: 310px;
+    border-width: 0px;
+    outline-width: 0px;
+    border-color: navy;
+    border-radius: 6px;
+    height: 38px;
+    margin-left: 19px;
+    margin-bottom: 13px;
+}
+
+.input-style2 {
+    width: 310px;
+    border-width: 0px;
+    outline-width: 0px;
+    border-color: navy;
+    border-radius: 6px;
+    height: 38px;
+    margin-left: 18px;
+    margin-bottom: 13px;
+}
+
+.food-donation-button {
+    width: 145px;
+    height: 45px;
+    margin-right: 21px;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+    background-color: #44147E;
+    font-weight: bolder;
+    font-family: serif;
+    border-radius: 8px;
+}
+
+.note {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #073930;
+    text-decoration: underline;
+}
+
+.food-donation-para {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 9px;
+    color: #035356;
+
+}
+
+.refund {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: maroon;
+}
+
+.button7 {
+    width: 145px;
+    height: 45px;
+    margin-right: 21px;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+    background-color: #6B1041;
+    font-weight: bolder;
+    font-family: serif;
+    border-radius: 8px;
+}
+
+.image-icon {
+    margin-top: 60px;
+}
+
+.Thank-You-Heading {
+    font-size: 26px;
+    color: #05483D;
+    font-family: Lobster;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.Thank-You-Heading4 {
+    font-size: 26px;
+    color: orange;
+    font-family: Lobster;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.Thank-You-Heading1 {
+    font-size: 26px;
+    color: #1A226B;
+    font-family: Lobster;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+
+.Thank-You-Heading5 {
+    font-size: 32px;
+    color: #05483D;
+    font-family: Lobster;
+    font-weight: bolder;
+    padding-top: 25px;
+}
+
+.special-thanks {
+    font-family: Monoton;
+    color: #A8330F;
+    font-weight: bolder;
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+.button-last {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 180px;
+    height: 65px;
+    font-weight: bold;
+    font-size:24px;
+
+}
+
+.gift-image {
+    width: 45px;
+    height: 45px;
+}
